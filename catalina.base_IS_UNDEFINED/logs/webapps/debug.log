@@ -1,0 +1,33 @@
+2019-05-03 00:02:06.751 [main] DEBUG com.xiao.o2o.dao.WechatAuthDao.insertWechatAuth - ==>  Preparing: INSERT INTO tb_wechat_auth(user_id,open_id,create_time) VALUES (?,?,?) 
+2019-05-03 00:02:06.826 [main] DEBUG com.xiao.o2o.dao.WechatAuthDao.insertWechatAuth - ==> Parameters: 1(Long), ddggdgdfff(String), 2019-05-03 00:02:05.802(Timestamp)
+2019-05-03 00:02:07.172 [main] DEBUG c.x.o2o.dao.WechatAuthDao.queryWechatInfoByOpenId - ==>  Preparing: SELECT w.wechat_auth_id, w.open_id, w.create_time, p.user_id, p.name, p.gender, p.email, p.profile_img, p.user_type, p.create_time, p.last_edit_time, p.enable_status FROM tb_wechat_auth w LEFT JOIN tb_person_info p ON w.user_id = p.user_id WHERE w.open_id = ? 
+2019-05-03 00:02:07.173 [main] DEBUG c.x.o2o.dao.WechatAuthDao.queryWechatInfoByOpenId - ==> Parameters: ddggdgdfff(String)
+2019-05-03 00:08:20.742 [main] DEBUG com.xiao.o2o.dao.WechatAuthDao.insertWechatAuth - ==>  Preparing: INSERT INTO tb_wechat_auth(user_id,open_id,create_time) VALUES (?,?,?) 
+2019-05-03 00:08:20.778 [main] DEBUG com.xiao.o2o.dao.WechatAuthDao.insertWechatAuth - ==> Parameters: 1(Long), ddggdgdfff(String), 2019-05-03 00:08:19.796(Timestamp)
+2019-05-03 00:08:20.870 [main] DEBUG com.xiao.o2o.dao.WechatAuthDao.insertWechatAuth - <==    Updates: 1
+2019-05-03 00:08:20.889 [main] DEBUG c.x.o2o.dao.WechatAuthDao.queryWechatInfoByOpenId - ==>  Preparing: SELECT w.wechat_auth_id, w.open_id, w.create_time, p.user_id, p.name, p.gender, p.email, p.profile_img, p.user_type, p.create_time, p.last_edit_time, p.enable_status FROM tb_wechat_auth w LEFT JOIN tb_person_info p ON w.user_id = p.user_id WHERE w.open_id = ? 
+2019-05-03 00:08:20.890 [main] DEBUG c.x.o2o.dao.WechatAuthDao.queryWechatInfoByOpenId - ==> Parameters: ddggdgdfff(String)
+2019-05-03 00:18:52.214 [main] DEBUG com.xiao.o2o.dao.WechatAuthDao.insertWechatAuth - ==>  Preparing: INSERT INTO tb_wechat_auth(user_id,open_id,create_time) VALUES (?,?,?) 
+2019-05-03 00:18:52.249 [main] DEBUG com.xiao.o2o.dao.WechatAuthDao.insertWechatAuth - ==> Parameters: 1(Long), ddggdgdfff(String), 2019-05-03 00:18:51.326(Timestamp)
+2019-05-03 00:18:52.339 [main] DEBUG com.xiao.o2o.dao.WechatAuthDao.insertWechatAuth - <==    Updates: 1
+2019-05-03 00:18:52.355 [main] DEBUG c.x.o2o.dao.WechatAuthDao.queryWechatInfoByOpenId - ==>  Preparing: SELECT w.wechat_auth_id, w.open_id, w.create_time, p.user_id, p.name, p.gender, p.email, p.profile_img, p.user_type, p.create_time, p.last_edit_time, p.enable_status FROM tb_wechat_auth w LEFT JOIN tb_person_info p ON w.user_id = p.user_id WHERE w.open_id = ? 
+2019-05-03 00:18:52.355 [main] DEBUG c.x.o2o.dao.WechatAuthDao.queryWechatInfoByOpenId - ==> Parameters: ddggdgdfff(String)
+2019-05-03 00:18:52.412 [main] DEBUG c.x.o2o.dao.WechatAuthDao.queryWechatInfoByOpenId - <==      Total: 1
+2019-05-03 00:41:06.394 [main] DEBUG com.xiao.o2o.dao.PersonInfoDao.insertPersonInfo - ==>  Preparing: INSERT INTO tb_person_info(name,gender,email,profile_img,user_type, create_time,last_edit_time,enable_status) VALUES (?,?,?,?, ?,?,?,?) 
+2019-05-03 00:41:06.427 [main] DEBUG com.xiao.o2o.dao.PersonInfoDao.insertPersonInfo - ==> Parameters: 测试一下(String), null, null, null, 1(Integer), 2019-05-03 00:41:06.373(Timestamp), null, 1(Integer)
+2019-05-03 00:41:06.511 [main] DEBUG com.xiao.o2o.dao.PersonInfoDao.insertPersonInfo - <==    Updates: 1
+2019-05-03 00:41:06.519 [main] DEBUG com.xiao.o2o.dao.WechatAuthDao.insertWechatAuth - ==>  Preparing: INSERT INTO tb_wechat_auth(user_id,open_id,create_time) VALUES (?,?,?) 
+2019-05-03 00:41:06.523 [main] DEBUG com.xiao.o2o.dao.WechatAuthDao.insertWechatAuth - ==> Parameters: 3(Long), dafasgfdf(String), 2019-05-03 00:41:06.373(Timestamp)
+2019-05-03 00:41:06.604 [main] DEBUG com.xiao.o2o.dao.WechatAuthDao.insertWechatAuth - <==    Updates: 1
+2019-05-03 00:41:06.751 [main] DEBUG c.x.o2o.dao.WechatAuthDao.queryWechatInfoByOpenId - ==>  Preparing: SELECT w.wechat_auth_id, w.open_id, w.create_time, p.user_id, p.name, p.gender, p.email, p.profile_img, p.user_type, p.create_time, p.last_edit_time, p.enable_status FROM tb_wechat_auth w LEFT JOIN tb_person_info p ON w.user_id = p.user_id WHERE w.open_id = ? 
+2019-05-03 00:41:06.752 [main] DEBUG c.x.o2o.dao.WechatAuthDao.queryWechatInfoByOpenId - ==> Parameters: dafasgfdf(String)
+2019-05-03 00:41:06.805 [main] DEBUG c.x.o2o.dao.WechatAuthDao.queryWechatInfoByOpenId - <==      Total: 1
+2019-05-03 01:09:36.114 [main] DEBUG com.xiao.o2o.dao.PersonInfoDao.insertPersonInfo - ==>  Preparing: INSERT INTO tb_person_info(name,gender,email,profile_img,user_type, create_time,last_edit_time,enable_status) VALUES (?,?,?,?, ?,?,?,?) 
+2019-05-03 01:09:36.151 [main] DEBUG com.xiao.o2o.dao.PersonInfoDao.insertPersonInfo - ==> Parameters: 测试一下(String), null, null, null, 1(Integer), 2019-05-03 01:09:36.092(Timestamp), null, 1(Integer)
+2019-05-03 01:09:36.244 [main] DEBUG com.xiao.o2o.dao.PersonInfoDao.insertPersonInfo - <==    Updates: 1
+2019-05-03 01:09:36.253 [main] DEBUG com.xiao.o2o.dao.WechatAuthDao.insertWechatAuth - ==>  Preparing: INSERT INTO tb_wechat_auth(user_id,open_id,create_time) VALUES (?,?,?) 
+2019-05-03 01:09:36.258 [main] DEBUG com.xiao.o2o.dao.WechatAuthDao.insertWechatAuth - ==> Parameters: 4(Long), dafasgfdf(String), 2019-05-03 01:09:36.092(Timestamp)
+2019-05-03 01:09:36.348 [main] DEBUG com.xiao.o2o.dao.WechatAuthDao.insertWechatAuth - <==    Updates: 1
+2019-05-03 01:09:36.515 [main] DEBUG c.x.o2o.dao.WechatAuthDao.queryWechatInfoByOpenId - ==>  Preparing: SELECT w.wechat_auth_id, w.open_id, w.create_time, p.user_id, p.name, p.gender, p.email, p.profile_img, p.user_type, p.create_time, p.last_edit_time, p.enable_status FROM tb_wechat_auth w LEFT JOIN tb_person_info p ON w.user_id = p.user_id WHERE w.open_id = ? 
+2019-05-03 01:09:36.516 [main] DEBUG c.x.o2o.dao.WechatAuthDao.queryWechatInfoByOpenId - ==> Parameters: ddfghgdhw(String)
+2019-05-03 01:09:36.571 [main] DEBUG c.x.o2o.dao.WechatAuthDao.queryWechatInfoByOpenId - <==      Total: 0
